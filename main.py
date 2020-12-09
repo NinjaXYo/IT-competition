@@ -3,8 +3,8 @@ import pickle
 
 info = {}
 
-# with open("game.p", "br") as readfile:
-#     info = pickle.load(readfile)
+with open("game.p", "br") as readfile:
+    info = pickle.load(readfile)
 print(info)
 
 s = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+[]{}\|';:<,>.?/`"
